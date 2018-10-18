@@ -165,10 +165,10 @@
         color: inherit;
         background: none;
         cursor: pointer;
-        padding: 8px 60px;
+        padding: 6px 60px;
         padding-left: 0px;
         display: inline-block;
-        margin: 5px 30px;
+        margin: 0px 30px;
         margin-left: 0px;
         letter-spacing: 0.5px;
         font-weight: 600;
@@ -734,10 +734,11 @@
     }
     
     .blog-post .post-title h2 {
-        font-family: 'adobe-garamond-pro', serif;
+        font-family: 'Niramit', sans-serif;
         color: #333333;
-        font-size: 28px;
-        font-weight: 400 !important;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 600 !important;
         font-style: normal;
         /*
     margin-top: 24px;
@@ -1174,7 +1175,7 @@
         line-height: 90px;
         display: block;
         font-size: 14px;
-        letter-spacing: 0.7px;
+        letter-spacing: 0.2px;
         margin: 0 auto;
         font-weight: 500;
         transition: all 0.3s ease-in-out;
@@ -1204,7 +1205,7 @@
         line-height: 90px;
         display: block;
         font-size: 16px;
-        letter-spacing: 1.5px;
+        letter-spacing: 0.2px;
         margin: 0 auto;
         font-weight: 500;
     }
@@ -1276,7 +1277,7 @@
         font-family: 'proxima-nova', sans-serif;
         position: absolute;
         font-size: 16px;
-        letter-spacing: 0.7px;
+        letter-spacing: 0.2px;
         color: #FFF;
         background: #7021FF;
         border: none;
@@ -1294,10 +1295,10 @@
     }
     
     #footer-subscribe h2 {
-        font-family: 'proxima-nova', sans-serif;
+        font-family: 'Niramit', sans-serif;
         color: #333;
         font-size: 30px;
-        font-weight: 300;
+        font-weight: 600;
         padding-bottom: 15px;
     }
     
@@ -1313,7 +1314,6 @@
         }
         #footer-subscribe h2 {
             font-size: 25px !important;
-            font-weight: 300;
             padding-bottom: 5px;
         }
     }
@@ -3094,11 +3094,13 @@
             font-family: 'proxima-nova', sans-serif;
             text-transform: none;
             font-size: 12px;
+            font-weight: 400;
         }
         #main-nav .nav-container #slide_out_menu ul.sldm-default li.sldm-submenu ul li a {
             font-family: 'proxima-nova', sans-serif;
             text-transform: none;
             font-size: 12px;
+            font-weight: 400;
         }
         #main-nav .nav-container #slide_out_menu ul.sldm-default+ul {
             margin-top: 43px;
@@ -3493,7 +3495,7 @@
         font-size: 13px;
         line-height: 18px;
         font-weight: 300;
-        letter-spacing: 0.5px;
+        letter-spacing: 0.2px;
         margin-top: 8px;
     }
     
@@ -3676,18 +3678,18 @@
     }
     
     .left li.has-dropdown.megamenu>.dropdown .dropdown-body {
-        padding: 30px;
+        padding: 30px 30px 10px 30px;
         border-radius: 4px;
     }
     
     .left li.has-dropdown.megamenu .dropdown-body .post-title {
-        font-family: 'adobe-garamond-pro', serif;
+        font-family: 'Niramit', sans-serif;
         color: #333333;
-        font-size: 23px;
-        font-weight: 400 !important;
+        font-size: 20px;
+        font-weight: 600 !important;
         font-style: normal;
         text-transform: none;
-        line-height: 29px;
+        line-height: 25px;
         letter-spacing: normal;
     }
     
