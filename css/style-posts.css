@@ -2783,6 +2783,7 @@ mark {
 
 i.italicized {
     color: black;
+    font-weight: 500;
 }
 
 .article__footer {
