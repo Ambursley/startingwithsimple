@@ -1763,6 +1763,7 @@
             width: 70px;
             height: 70px;
             line-height: 70px;
+            font-weight: 500 !important;
             font-size: 11px;
         }
         .end {
