@@ -2659,7 +2659,7 @@
     #home-header .home-header-container {
         width: 60% !important;
         margin: 0 auto !important;
-        padding: 100px 0 !important;
+        padding: 140px 0px 60px 0px !important;
     }
     
     #home-header h1 {
@@ -2704,7 +2704,7 @@
         #home-header .home-header-container {
             width: 85% !important;
             margin: 0 auto !important;
-            padding: 60px 0 0 0px !important;
+            padding: 100px 0px 0px 0px !important;
         }
         #home-header h1 {
             font-size: 25px !important;
