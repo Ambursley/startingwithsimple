@@ -1,4 +1,5 @@
     /* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Niramit:500,600');
     
     @import url("https://use.typekit.net/vhq2vux.css");
     /* Global Style */
@@ -2662,10 +2663,11 @@
     }
     
     #home-header h1 {
-        font-family: 'proxima-nova', sans-serif;
+        font-family: 'Niramit', sans-serif;
         color: #333;
-        font-size: 50px;
-        font-weight: 300;
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 600;
         padding-bottom: 20px;
     }
     
@@ -2705,8 +2707,9 @@
             padding: 60px 0 0 0px !important;
         }
         #home-header h1 {
-            font-size: 30px !important;
-            font-weight: 300;
+            font-size: 25px !important;
+            font-weight: 600;
+            line-height: 34px;
             padding-bottom: 5px;
         }
     }
