@@ -3536,6 +3536,7 @@ textarea.input {
 
 .nav-center ul.left {
     font-family: 'proxima-nova';
+    font-weight: 600;
     letter-spacing: 0.1px;
     text-align: left;
     margin: auto;
