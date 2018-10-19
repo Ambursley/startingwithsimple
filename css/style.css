@@ -1,5 +1,5 @@
     /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Niramit:500,600');
+@import url('https://fonts.googleapis.com/css?family=Niramit:500,600,700');
     
     @import url("https://use.typekit.net/vhq2vux.css");
     /* Global Style */
@@ -2666,9 +2666,9 @@
     #home-header h1 {
         font-family: 'Niramit', sans-serif;
         color: #333;
-        font-size: 35px;
+        font-size: 45px;
         line-height: 45px;
-        font-weight: 600;
+        font-weight: 700 !important;
         padding-bottom: 20px;
     }
     
@@ -2694,6 +2694,20 @@
         background: #7021FF;
         color: #fff;
     }
+
+@media only screen and (max-width: 992px) {
+    #home-header h1 {
+            font-size: 35px !important;
+            line-height: 42px;
+            padding-bottom: 20px;
+        }
+}
+
+@media only screen and (max-width: 740px) {
+    #home-header .home-header-container {
+            width: 70% !important;
+    }
+}
     
     @media only screen and (max-width: 570px) {
         #home-header {
@@ -2709,11 +2723,21 @@
         }
         #home-header h1 {
             font-size: 25px !important;
-            font-weight: 600;
             line-height: 34px;
             padding-bottom: 5px;
         }
     }
+
+
+@media only screen and (max-width: 400px) {
+    #home-header .home-header-container {
+            width: 80% !important;
+    }
+    
+     #home-header h1 {
+        font-size: 24px !important;
+    }
+}
     /*****************************************************
 *** Main Nav ***
 *****************************************************/
