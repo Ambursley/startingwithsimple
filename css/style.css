@@ -3726,6 +3726,7 @@
     }
     
     .left li.has-dropdown.megamenu .post-time {
+        font-weight: 300;
         position: absolute;
         left: 0px;
         top: 0px;
