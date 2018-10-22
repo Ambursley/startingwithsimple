@@ -220,6 +220,18 @@
                 $("#load-more-post").fadeOut(100);
             }
         });
+        
+        /* Load More Simple Stuff */
+
+        $("div.brick").slice(0, 5).show();
+        $("#load-more-post").on('click', function (e) {
+            e.preventDefault();
+            $("div.brick:hidden").slice(0, 1).slideDown(300);
+            if ($("div.brick:hidden").length == 0) {
+                $('#post-end-message').html('<div class="end">End</div>').fadeIn(800);
+                $("#load-more-post").fadeOut(100);
+            }
+        });
 
 
 
