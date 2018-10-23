@@ -2649,34 +2649,55 @@
         width: 100%;
         border-top: 1px solid #dedede;
     }
+
+
     /* HOME HEADER IMAGE
 --------------------------------*/
-/*
-#home-header img {
-  max-width: 100%;
-}
-
 #home-header {
-  max-width: 100%; 
-  margin: auto;
+    position: relative;
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    display: table;
 }
 
-#home-header::after {
-  display: block;
-  position: relative;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
-  margin-top: -150px;
-  height: 150px;
-  width: 100%;
-  content: '';
+#home-header .post-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-*/
-    
+
+#home-header .overlay {
+    background-image: linear-gradient(to bottom, rgba(251, 252, 253, 0.7) 0, #fafafa 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#home-header .post-content {
+    position: relative;
+    z-index: 500;
+}
+
+
+    /*
     #home-header {
         background: linear-gradient(rgba(251, 252, 253, 0.7), #fafafa), url(../images/call-to-action-bg.jpg) center center;
         background-size: cover;
     }
-
+*/
     
     #home-header .home-header-container {
         width: 60% !important;
