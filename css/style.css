@@ -2720,7 +2720,7 @@
         padding: 100px 0px 60px 0px !important;
     }
 
-    #home-header h1.category-page {
+    #home-header h1.category-page a {
         font-family: 'Niramit', sans-serif;
         color: #333;
         font-size: 30px;
@@ -2728,6 +2728,13 @@
         font-weight: 700 !important;
         padding-bottom: 20px;
     }
+
+#home-header h1.category-page a:hover {
+    color: #7021FF;
+    -webkit-transition: all 0.05s;
+    -moz-transition: all 0.05s;
+    transition: all 0.05s;
+}
     
     #home-header p {
         color: #333;
