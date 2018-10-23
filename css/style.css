@@ -2795,11 +2795,14 @@
             width: 85% !important;
             margin: 0 auto !important;
             padding: 100px 0px 0px 0px !important;
+            margin-bottom: -70px !Important;
         }
         #home-header .home-header-container-category {
             width: 85% !important;
             margin: 0 auto !important;
             padding: 70px 0px 0px 0px !important;
+            margin-bottom: -70px !Important;
+            
         }
         #home-header h1 {
             font-size: 25px !important;
