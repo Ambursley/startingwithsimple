@@ -3719,10 +3719,10 @@
 .imp_item .imp_item_hover .item_info span {
     display: block;
     color: #fff;
-    font-size: 10px;
+    font-size: 11px;
     padding-bottom: 20px;
     font-family: 'proxima-nova', sans-serif;
-    line-height: 12px;
+    line-height: 15px;
     font-weight: 300;
     -webkit-transform: translateX(-100px);
     transform: translateX(-100px);
