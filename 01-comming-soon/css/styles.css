@@ -404,6 +404,12 @@ b.light-color {
     background: linear-gradient(to right, #23074d, #cc5333);
 }
 
+@media only screen and (max-width: 570px) {
+    .right-section {
+        display: none;
+    }
+}
+
 #rounded-countdown {
     width: 80%;
     margin: 0 auto;
